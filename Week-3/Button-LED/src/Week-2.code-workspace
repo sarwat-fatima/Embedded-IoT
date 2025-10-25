@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "../.."
+		},
+		{
+			"name": "simpleTimer",
+			"path": "../../simpleTimer"
+		},
+		{
+			"name": "Button-LED",
+			"path": ".."
+		}
+	],
+	"settings": {}
+}
