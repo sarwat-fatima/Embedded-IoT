@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "../.."
+		},
+		{
+			"name": "OLED-display",
+			"path": "../../OLED-display"
+		},
+		{
+			"name": "OLED-Shapesdisplay",
+			"path": ".."
+		}
+	],
+	"settings": {}
+}
