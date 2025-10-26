@@ -1,0 +1,20 @@
+{
+	"folders": [
+		{
+			"path": "../.."
+		},
+		{
+			"name": "LDR",
+			"path": "../../LDR"
+		},
+		{
+			"name": "DHT11",
+			"path": "../../DHT11"
+		},
+		{
+			"name": "OLED-DHT11-LDR",
+			"path": ".."
+		}
+	],
+	"settings": {}
+}
