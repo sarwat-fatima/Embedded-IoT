@@ -19,11 +19,17 @@ Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, -1);
 
 const int buttonPin = 4;  // Pin for the button
 const int led1Pin = 25;    // Pin for LED 1
-const int buzzerPin = 26;  // Pin for the buzzer
+const int buzzerPin = 18;  // Pin for the buzzer
 
 bool ledState = false; // State of the LED
 unsigned long buttonPressStart = 0; // Time when button was pressed
 bool buttonPressed = false; // Flag to check if the button is pressed
+void updateDisplay(String message) {
+  display.clearDisplay();
+  display.setCursor(0, 0);
+  display.println(message);
+  display.display();
+}
 
 void setup() {
   pinMode(buttonPin, INPUT_PULLUP);
@@ -74,9 +80,3 @@ void loop() {
   }
 }
 
-void updateDisplay(String message) {
-  display.clearDisplay();
-  display.setCursor(0, 0);
-  display.println(message);
-  display.display();
-}
