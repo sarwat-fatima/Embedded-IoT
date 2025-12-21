@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "../../../../WIFI/StaticIP"
+		},
+		{
+			"name": "WIFI",
+			"path": "C:/Users/DELL/Documents/PlatformIO/Projects/WIFI"
+		},
+		{
+			"name": "Webserver-1092",
+			"path": "."
+		}
+	],
+	"settings": {}
+}
