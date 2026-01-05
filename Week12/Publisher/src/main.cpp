@@ -45,7 +45,7 @@ void connectWiFi() {
 void connectMQTT() {
   while (!mqtt.connected()) {
     Serial.print("Connecting to MQTT...");
-    if (mqtt.connect("ESP32_Publisher-Haru")) {
+    if (mqtt.connect("ESP32_Publisher-1")) {
       Serial.println("connected");
     } else {
       Serial.print("failed, rc=");
