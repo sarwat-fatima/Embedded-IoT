@@ -10,13 +10,13 @@
 #include <PubSubClient.h>
 
 // ================== WIFI ==================
-char ssid[] = "Haru";
-char pass[] = "Haruki12";
+char ssid[] = "Mahnoor";
+char pass[] = "Mahnoor03";
 
 // ================== MQTT ==================
 WiFiClient espClient;
 PubSubClient mqttClient(espClient);
-const char* mqtt_server = "10.226.199.65";   // <-- CHANGE THIS
+const char* mqtt_server = "10.130.2.65";   // <-- CHANGE THIS
 
 // ================== PINS ==================
 const int pirPin = 34;
